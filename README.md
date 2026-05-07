@@ -1,44 +1,45 @@
 # Tourplan AI – Pakistan Travel Decision Engine 🇵🇰
 
-Tourplan AI is an AI-powered travel decision engine designed specifically for Pakistan.
-Unlike traditional travel planners, it does not just generate itineraries — it evaluates whether a trip is actually practical, efficient, and worth taking based on real-world travel constraints.
+Tourplan AI is an AI-powered travel decision engine that helps users determine whether a trip is actually practical, efficient, and worth taking based on real-world travel conditions in Pakistan.
+
+Unlike traditional itinerary generators, Tourplan AI evaluates factors like budget, travel fatigue, long-distance travel, road conditions, hidden costs, and time efficiency before recommending a trip.
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
 * Smart destination recommendation
-* Trip feasibility analysis
+* Feasibility analysis (Possible / Difficult / Not Recommended)
 * Budget efficiency scoring
 * Travel time vs enjoyment analysis
 * Hidden cost estimation
-* Weather & road risk warnings
+* Weather & road condition warnings
 * Overplanning detection
-* Realistic day-wise itinerary
+* Day-wise realistic itinerary generation
 * Budget vs comfort plan comparison
 * Traveler profile matching
-* Final decision with reasoning
+* Final AI-based trip verdict
 
 ---
 
-## 🧠 What Makes It Unique?
+# 🇵🇰 Pakistan-Focused Intelligence
 
-Tourplan AI focuses on **Pakistan-specific travel realities**, including:
+Tourplan AI is designed specifically around Pakistan’s travel realities, including:
 
 * Long intercity travel distances
 * Mountain road conditions
-* Jeep-only access routes
+* Jeep-only routes
 * Transport delays
 * Travel fatigue
-* Budget limitations
+* Seasonal and weather risks
 
-Instead of generating unrealistic “perfect trips,” the system can also determine when a trip is **not recommended**.
+The system prioritizes practical and realistic travel planning instead of overly optimistic itineraries.
 
 ---
 
-## 📥 Example Input
+# 📥 Example Input
 
-```json
+```json id="8sj0m6"
 {
   "starting_city": "Islamabad",
   "budget": 100000,
@@ -49,9 +50,9 @@ Instead of generating unrealistic “perfect trips,” the system can also deter
 
 ---
 
-## 📤 Example Output
+# 📤 Example Output
 
-```json
+```json id="2e92t0"
 {
   "feasibility": "possible",
   "feasibility_score": "8/10",
@@ -65,35 +66,38 @@ Instead of generating unrealistic “perfect trips,” the system can also deter
 
 ---
 
-## ⚙️ Tech Stack
+# ⚙️ Tech Stack
 
+* HTML
+* CSS
 * JavaScript
 * Node.js
+* Express.js
 * Gemini API
-* Google Cloud Run
 * Prompt Engineering
-* Structured JSON Response System
+* JSON Structured Response System
+* Google Cloud Run
 
 ---
 
-## ☁️ Deployment
+# ☁️ Deployment
 
-The project is deployed using **Google Cloud Run** for scalable cloud-based access.
-
----
-
-## 🎯 Purpose
-
-The goal of Tourplan AI is to help users make smarter, more realistic, and regret-free travel decisions instead of relying on overly optimistic travel plans.
+The project is deployed using **Google Cloud Run** for scalable cloud hosting and accessibility.
 
 ---
 
-## 🏆 Built For
+# 🎯 Purpose
+
+The goal of Tourplan AI is to help users make smarter and more realistic travel decisions instead of relying on generic AI-generated travel plans.
+
+---
+
+# 🏆 Built For
 
 AI Seekho Challenge – Google Cloud & Generative AI Project
 
 ---
 
-## 📌 Core Idea
+# 💡 Core Idea
 
 > “Not every trip that looks good on paper is actually worth taking in real life.”
