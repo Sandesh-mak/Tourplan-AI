@@ -1,20 +1,99 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Tourplan AI – Pakistan Travel Decision Engine 🇵🇰
 
-# Run and deploy your AI Studio app
+Tourplan AI is an AI-powered travel decision engine designed specifically for Pakistan.
+Unlike traditional travel planners, it does not just generate itineraries — it evaluates whether a trip is actually practical, efficient, and worth taking based on real-world travel constraints.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/75f538c4-0352-419f-bf98-999c258f70fe
+## 🚀 Features
 
-## Run Locally
+* Smart destination recommendation
+* Trip feasibility analysis
+* Budget efficiency scoring
+* Travel time vs enjoyment analysis
+* Hidden cost estimation
+* Weather & road risk warnings
+* Overplanning detection
+* Realistic day-wise itinerary
+* Budget vs comfort plan comparison
+* Traveler profile matching
+* Final decision with reasoning
 
-**Prerequisites:**  Node.js
+---
 
+## 🧠 What Makes It Unique?
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Tourplan AI focuses on **Pakistan-specific travel realities**, including:
+
+* Long intercity travel distances
+* Mountain road conditions
+* Jeep-only access routes
+* Transport delays
+* Travel fatigue
+* Budget limitations
+
+Instead of generating unrealistic “perfect trips,” the system can also determine when a trip is **not recommended**.
+
+---
+
+## 📥 Example Input
+
+```json
+{
+  "starting_city": "Islamabad",
+  "budget": 100000,
+  "days": 4,
+  "travel_preference": "Adventure"
+}
+```
+
+---
+
+## 📤 Example Output
+
+```json
+{
+  "feasibility": "possible",
+  "feasibility_score": "8/10",
+  "decision": "Recommended",
+  "travel_time_analysis": {
+    "time_spent_traveling": "35%",
+    "time_spent_enjoying": "65%"
+  }
+}
+```
+
+---
+
+## ⚙️ Tech Stack
+
+* JavaScript
+* Node.js
+* Gemini API
+* Google Cloud Run
+* Prompt Engineering
+* Structured JSON Response System
+
+---
+
+## ☁️ Deployment
+
+The project is deployed using **Google Cloud Run** for scalable cloud-based access.
+
+---
+
+## 🎯 Purpose
+
+The goal of Tourplan AI is to help users make smarter, more realistic, and regret-free travel decisions instead of relying on overly optimistic travel plans.
+
+---
+
+## 🏆 Built For
+
+AI Seekho Challenge – Google Cloud & Generative AI Project
+
+---
+
+## 📌 Core Idea
+
+> “Not every trip that looks good on paper is actually worth taking in real life.”
