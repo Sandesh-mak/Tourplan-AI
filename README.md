@@ -67,7 +67,7 @@ The system prioritizes practical and realistic travel planning instead of overly
 ---
 
 # ⚙️ Tech Stack
-
+*TypeScript
 * HTML
 * CSS
 * JavaScript
